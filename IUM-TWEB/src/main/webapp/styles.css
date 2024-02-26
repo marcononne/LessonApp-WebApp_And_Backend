@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 5px;
+    background-color: #d3e4ff;
+    color: #334863;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 25%;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #334863;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 2px solid #4b607c;
+    color: #4b607c;
+}
+
+select {
+    width: 106%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 2px solid #4b607c;
+    color: #4b607c;
+}
+
+input:focus, select:focus {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 2px solid #041c35;
+}
+
+button {
+    display: block;
+    width: 107%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #6ff7f6;
+    color: #004f4f;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: #004f4f;
+  color: #6ff7f6 ;
+}
+
+.left-image {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    width: 30%;
+}
+
+.right-image {
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    width: 30%;
+
+}
+
+#validation {
+    border:0;
+    width:88px;
+    height:31px;
+}
+
+main {
+    text-align: center;
+}
+
+#welcome {
+    font-weight: bold;
+}
